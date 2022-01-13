@@ -32,3 +32,4 @@ p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}
 #root, #__next {isolation: isolate;}
 
 input, button {border: 1px solid #000; border-radius: 0; background: none;}
+input {line-height: 1.5;}
