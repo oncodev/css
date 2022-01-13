@@ -10,11 +10,10 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, input {
+time, mark, audio, video, input, button {
 	margin: 0; padding: 0; border: 0;
 	font: inherit; vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {display: block;}
 ol, ul {list-style: none;}
@@ -28,7 +27,7 @@ html, body {height: 100%;}
 body {line-height: 1.5; -webkit-font-smoothing: antialiased;}
 img, picture, video, canvas, svg {display: block; max-width: 100%;}
 input, button, textarea, select {font: inherit;}
+input, button {border: 1px solid #000; border-radius: 0; background: none;}
 p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}
 #root, #__next {isolation: isolate;}
 
-input, button {border: 1px solid #000; border-radius: 0; background: none;}
